@@ -2,7 +2,7 @@ var AWS = require("aws-sdk");
 let awsConfig = {
     "region": "us-east-1",
     "endpoint": "http://dynamodb.us-east-1.amazonaws.com",
-    "accessKeyId": "AKIARWFB7FHXC3LEPKX2", "secretAccessKey": "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"
+    "accessKeyId": "", "secretAccessKey": ""
 };
 AWS.config.update(awsConfig);
 
